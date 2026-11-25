@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+authors:
+  - family-names: Yang
+    given-names: Lei
+    affiliation: "School of Laboratory Medicine and Life Sciences, Wenzhou Medical University, Wenzhou, Zhejiang, China"
+title: "Codon_model: Python scripts for a teaching module on codon degeneracy and codon usage bias"
+date-released: 2026-11-11
+url: "https://github.com/weichuyang777-rgb/Codon_model"
+repository-code: "https://github.com/weichuyang777-rgb/Codon_model"
+license: MIT
+# Version accompanying the PLOS Computational Biology Education submission.
+# Analysis scripts are unchanged from repository commit f8a90aa (11 November 2026).
+# No DOI is assigned; cite the repository URL together with this commit.

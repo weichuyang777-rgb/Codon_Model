@@ -1,0 +1,26 @@
+25 November 2026
+
+Dear Editor,
+
+I am pleased to submit my manuscript entitled "A Python-based computational module for teaching codon degeneracy and codon usage bias" for consideration as an Education article in PLOS Computational Biology. I understand that Education contributions are generally invited but that unsolicited submissions are considered at the discretion of the Education Editor, and I would be grateful if this tutorial could be assessed through that route. It is submitted to the General section, as required for the Education article type.
+
+The standard genetic code is almost always taught as a static lookup table to be memorised. This article turns that table into a small, well-defined dataset that learners interrogate with four short Python exercises: encoding the genetic code as a nested dictionary; testing positional base differences with paired t-tests; regressing human-proteome amino-acid frequencies on synonymous-codon number; and examining base and dinucleotide frequencies in human coding exons. Working from two public UCSC Genome Browser tables, learners reproduce two classic results for themselves - the concentration of degeneracy at the third (wobble) position and the non-randomness of base, codon and dinucleotide usage.
+
+What makes the piece a computational-biology tutorial rather than a biology worksheet is its treatment of method choice. Three issues that are rarely made explicit in teaching are built into the exercises: the power limitations of a paired t-test based on only four nucleotides; the way aggregation inflates the coefficient of determination (R² = 0.51 across 20 amino acids versus approximately 0.87 across five group means); and the distinction between a program data structure and a mathematical model. A non-significant result and an only partially correct prediction are retained as teachable moments rather than removed. All five scripts, three SVG figures, a README, citation metadata and an MIT licence are supplied as Supporting Information and archived at https://github.com/weichuyang777-rgb/Codon_model (commit f8a90aa), so every table and figure can be regenerated using only the Python 3 standard library, with no third-party packages, software licences or institutional infrastructure. I believe this combination of conceptual clarity, zero-dependency reproducibility and honestly reported negative results fits the Education section's aim of providing practical guidance on computational approaches to biological questions.
+
+The manuscript contains approximately 2,300 words of main text, within the 2,000-2,500-word range for Education articles, and includes an Author summary written for non-specialists. Because the article is a tutorial, the design and methods are placed before the worked results so that readers can reproduce each step before seeing its outcome, and Results and Discussion are combined into a single "Worked results and what they teach" section. I note this ordering explicitly in case the editorial office prefers the standard sequence.
+
+For transparency, this is a teaching resource and not a learning-outcomes study. The module has not yet been formally evaluated with a student cohort, no student data were collected, and no claim about learning gains is made; the assessment prompts are offered as guidance for instructors who adopt the module. The manuscript states this limitation explicitly. No human participants were involved, so ethics approval was not required.
+
+An earlier version of this material was submitted to another education journal and was declined. The manuscript has been substantially rewritten and reframed here as a computational-biology tutorial, with a PLOS-style structure, an Author summary, a formal data-availability statement and a complete reproducibility package. It has not been published previously and is not currently under consideration elsewhere.
+
+I confirm that this work is original, that I am its sole author, and that I have read and approved the final manuscript and agree to this submission. I have no competing interests and received no specific funding. All underlying data are public UCSC Genome Browser downloads; the code is supplied as S1 File and deposited in the public GitHub repository named above. Generative AI tools were used under my supervision for language editing, code organisation and manuscript preparation; all outputs were checked against the deposited code and data, I take full responsibility for the content, and no AI tool is listed as an author.
+
+My ORCID iD will be entered in my Editorial Manager profile as required for corresponding authors. Thank you for considering this submission. I would be glad to suggest potential reviewers, and I am happy to supply the manuscript as a single PDF or to separate the figures and supporting information files at any stage.
+
+Sincerely,
+
+Yang Lei, Associate Researcher (sole author and corresponding author)
+School of Laboratory Medicine and Life Sciences
+Wenzhou Medical University, Wenzhou, Zhejiang, China
+E-mail: yanglei_1@wmu.edu.cn
