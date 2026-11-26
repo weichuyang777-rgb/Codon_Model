@@ -1,4 +1,4 @@
-25 November 2026
+26 November 2026
 
 Dear Editor,
 
@@ -6,7 +6,7 @@ I am pleased to submit my manuscript entitled "A Python-based computational modu
 
 The standard genetic code is almost always taught as a static lookup table to be memorised. This article turns that table into a small, well-defined dataset that learners interrogate with four short Python exercises: encoding the genetic code as a nested dictionary; testing positional base differences with paired t-tests; regressing human-proteome amino-acid frequencies on synonymous-codon number; and examining base and dinucleotide frequencies in human coding exons. Working from two public UCSC Genome Browser tables, learners reproduce two classic results for themselves - the concentration of degeneracy at the third (wobble) position and the non-randomness of base, codon and dinucleotide usage.
 
-What makes the piece a computational-biology tutorial rather than a biology worksheet is its treatment of method choice. Three issues that are rarely made explicit in teaching are built into the exercises: the power limitations of a paired t-test based on only four nucleotides; the way aggregation inflates the coefficient of determination (R² = 0.51 across 20 amino acids versus approximately 0.87 across five group means); and the distinction between a program data structure and a mathematical model. A non-significant result and an only partially correct prediction are retained as teachable moments rather than removed. All five scripts, three SVG figures, a README, citation metadata and an MIT licence are supplied as Supporting Information and archived at https://github.com/weichuyang777-rgb/Codon_model (commit f8a90aa), so every table and figure can be regenerated using only the Python 3 standard library, with no third-party packages, software licences or institutional infrastructure. I believe this combination of conceptual clarity, zero-dependency reproducibility and honestly reported negative results fits the Education section's aim of providing practical guidance on computational approaches to biological questions.
+What makes the piece a computational-biology tutorial rather than a biology worksheet is its treatment of method choice. Three issues that are rarely made explicit in teaching are built into the exercises: the power limitations of a paired t-test based on only four nucleotides; the way aggregation inflates the coefficient of determination (R² = 0.51 across 20 amino acids versus approximately 0.87 across five group means); and the distinction between a program data structure and a mathematical model. A non-significant result and an only partially correct prediction are retained as teachable moments rather than removed. All five scripts, three SVG figures, a README, citation metadata and an MIT licence are supplied as Supporting Information and archived at https://github.com/weichuyang777-rgb/Codon_model (commit 4829f553eba8a598ddd2a9a1d5999db108a1a14e), so every table and figure can be regenerated using only the Python 3 standard library, with no third-party packages, software licences or institutional infrastructure. I believe this combination of conceptual clarity, zero-dependency reproducibility and honestly reported negative results fits the Education section's aim of providing practical guidance on computational approaches to biological questions.
 
 The manuscript contains approximately 2,300 words of main text, within the 2,000-2,500-word range for Education articles, and includes an Author summary written for non-specialists. Because the article is a tutorial, the design and methods are placed before the worked results so that readers can reproduce each step before seeing its outcome, and Results and Discussion are combined into a single "Worked results and what they teach" section. I note this ordering explicitly in case the editorial office prefers the standard sequence.
 
@@ -16,7 +16,7 @@ An earlier version of this material was submitted to another education journal a
 
 I confirm that this work is original, that I am its sole author, and that I have read and approved the final manuscript and agree to this submission. I have no competing interests and received no specific funding. All underlying data are public UCSC Genome Browser downloads; the code is supplied as S1 File and deposited in the public GitHub repository named above. Generative AI tools were used under my supervision for language editing, code organisation and manuscript preparation; all outputs were checked against the deposited code and data, I take full responsibility for the content, and no AI tool is listed as an author.
 
-My ORCID iD will be entered in my Editorial Manager profile as required for corresponding authors. Thank you for considering this submission. I would be glad to suggest potential reviewers, and I am happy to supply the manuscript as a single PDF or to separate the figures and supporting information files at any stage.
+My ORCID iD is 0009-0001-2100-6415 (https://orcid.org/0009-0001-2100-6415), and I have also entered my ORCID iD (0009-0001-2100-6415) in my Editorial Manager profile as required for corresponding authors. Thank you for considering this submission. I would be glad to suggest potential reviewers, and I am happy to supply the manuscript as a single PDF or to separate the figures and supporting information files at any stage.
 
 Sincerely,
 
@@ -24,3 +24,4 @@ Yang Lei, Associate Researcher (sole author and corresponding author)
 School of Laboratory Medicine and Life Sciences
 Wenzhou Medical University, Wenzhou, Zhejiang, China
 E-mail: yanglei_1@wmu.edu.cn
+ORCID: 0009-0001-2100-6415

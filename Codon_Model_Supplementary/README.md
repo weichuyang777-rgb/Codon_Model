@@ -71,16 +71,16 @@ No private or restricted data are used.
 
 ## Deposition and citation
 
-The analysis scripts accompanying the manuscript are archived in the public GitHub
-repository <https://github.com/weichuyang777-rgb/Codon_model>, commit `f8a90aa`
-(11 November 2026), and are unchanged from that commit. This package additionally
-updates the script headers, citation metadata and README for the PLOS
-Computational Biology Education submission. See `CITATION.cff` in the repository root for the preferred
-citation (GitHub renders it as "Cite this repository").
+The exact version of the code accompanying the manuscript is archived in the
+public GitHub repository at
+<https://github.com/weichuyang777-rgb/Codon_model/commit/4829f553eba8a598ddd2a9a1d5999db108a1a14e>.
+This package reproduces that version. See `CITATION.cff` in this folder
+for the machine-readable citation metadata.
 
 No DOI is assigned for this deposit. The code is cited by the repository URL
-together with the commit identifier `f8a90aa`, which pins the exact version used
-in the manuscript; GitHub repositories can change over time, so the commit
+together with the commit identifier
+`4829f553eba8a598ddd2a9a1d5999db108a1a14e`, which pins the exact version used in
+the manuscript; GitHub repositories can change over time, so the commit
 identifier should always be included when retrieving or citing the code. A
 zipped copy of this folder (`Codon_Model_Supplementary.zip`) is also provided
 alongside the manuscript.

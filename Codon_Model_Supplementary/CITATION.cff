@@ -5,11 +5,13 @@ authors:
   - family-names: Yang
     given-names: Lei
     affiliation: "School of Laboratory Medicine and Life Sciences, Wenzhou Medical University, Wenzhou, Zhejiang, China"
+    orcid: "https://orcid.org/0009-0001-2100-6415"
 title: "Codon_model: Python scripts for a teaching module on codon degeneracy and codon usage bias"
 date-released: 2026-11-11
 url: "https://github.com/weichuyang777-rgb/Codon_model"
 repository-code: "https://github.com/weichuyang777-rgb/Codon_model"
 license: MIT
-# Version accompanying the PLOS Computational Biology Education submission.
-# Analysis scripts are unchanged from repository commit f8a90aa (11 November 2026).
+commit: "4829f553eba8a598ddd2a9a1d5999db108a1a14e"
+# Version accompanying the PLOS Computational Biology Education submission:
+# repository commit 4829f553eba8a598ddd2a9a1d5999db108a1a14e.
 # No DOI is assigned; cite the repository URL together with this commit.
